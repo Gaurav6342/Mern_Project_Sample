@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install-server": "cd backend && npm install",
-    "start-server": "cd backend && node app.js",
-    "install-client": "cd client && npm install",
-    "build-client": "cd client && npm run build",
-    "start-client": "cd client && npm run start"
+    "install-server": "cd Projects/mern-project-sample/server && npm install",
+    "start-server": "cd Projects/mern-project-sample/server && node app.js",
+    "install-client": "cd Projects/mern-project-sample/client && npm install",
+    "build-client": "cd Projects/mern-project-sample/client && npm run build",
+    "start-client": "cd Projects/mern-project-sample/client && npx run start"
   },
   "keywords": [],
   "author": "",
